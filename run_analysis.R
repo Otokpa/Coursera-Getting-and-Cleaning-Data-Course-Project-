@@ -8,8 +8,6 @@ unzip('dataset.zip')
 
 
 # load the data ##############################
-subjectTest <- read.table('test/subject_test.txt')
-
 # test 
 Xtest <- read.table('test/X_test.txt', header = F, sep = '')
 testSubjectId <- read.table('test/subject_test.txt', header = F, sep = '', col.names = 'subject.id')
